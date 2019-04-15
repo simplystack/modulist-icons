@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "SVG icons and illustrations for Modulist design system",
   "scripts": {
-    "build": "npx svgo --config=svgo.yml src/*.svg -o dist/",
-    "prepublish": "build"
+    "build": "rm -rf dist/* && npx svgo --config=svgo.yml src/*.svg -o dist/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
