@@ -1,6 +1,6 @@
 {
   "name": "@modulist/icons",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "SVG icons and illustrations for Modulist design system",
   "scripts": {
     "build": "rm -rf dist/* && npx svgo --config=svgo.yml src/*.svg -o dist/",
